@@ -1,0 +1,7 @@
+#reffered from
+#https://github.com/IBM-Cloud/cloud-sql-database/blob/master/manifest.yml
+applications:
+- name: myCloudApp
+  memory: 128M
+  command: python main.py
+  random-route: true
